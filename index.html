@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        
+		<!-- Bootstrap CSS -->
+		<!-- <link rel="icon" href="assets/images/png/" type="image/gif"> -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/select-2.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<title>Eboyo</title>
+	</head>
+	<body>
+		
+		<header>
+			<div class="container">
+				<div class="top-header-inner">
+				    <div class="logo">
+						<span class="me-2" onclick="openNav()"><img src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" width="40px"></span>
+						<a href="#"><img src="assets/images/logo.png" alt="logo.png"/></a>
+					</div>
+					<nav class="navbar navbar-expand-lg p-0">
+						<div class="collapse navbar-collapse" id="instanttrolley">
+						  <ul class="navbar-nav m-auto">
+							<li class="nav-item">
+							  <a class="nav-link" href="#"><img class="" src="assets/images/map.svg">Map</a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link" href="#"><img class="" src="assets/images/list.svg">List</a>
+							</li>
+							<li class="nav-item">
+								<span class="nav-link">
+									<select class="js-example-basic-single" name="state">
+									  <option value="AL">Alabama</option>
+										...
+									  <option value="WY">Wyoming</option>
+									</select>
+								</span>
+							</li>
+							<li class="nav-item">
+								<span class="nav-link">
+									<select class="js-example-basic-single" name="state">
+									  <option value="AL">Alabama</option>
+										...
+									  <option value="WY">Wyoming</option>
+									</select>
+								</span>
+							</li>
+							<li class="nav-item">
+								<span class="nav-link">
+									<select class="js-example-basic-single" name="state">
+									  <option value="AL">Alabama</option>
+										...
+									  <option value="WY">Wyoming</option>
+									</select>
+								</span>
+							</li>
+							
+						  </ul>
+						  
+						</div>
+					</nav>
+					<div class="right-box">
+						<div class="right-box-select">
+							<select class="js-example-basic-single" name="state">
+							  <option value="AL">Alabama</option>
+								...
+							  <option value="WY">Wyoming</option>
+							</select>
+						</div>
+						<div class="right-box-grid">
+							<img src="assets/images/grid.png">
+						</div>
+						<div class="right-box-grid">
+							<img src="assets/images/reload.png">
+						</div>
+						<button class="navbar-toggler p-0 d-lg-none d-block" type="button" data-bs-toggle="collapse" data-bs-target="#instanttrolley" aria-controls="instanttrolley" aria-expanded="false" aria-label="Toggle navigation">
+						    <span class="navbar-toggler-icon">
+								<div class="hamburger">
+									<div class="line"></div>
+									<div class="line"></div>
+									<div class="line"></div>
+								</div>
+							</span>
+					</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<section>
+			<div>
+				<div id="mySidenav" class="sidenav">
+					<img src="assets/images/logo.png" alt="logo.png"/>
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="#">About</a>
+					<a href="#">Services</a>
+					<a href="#">Clients</a>
+					<a href="#">Contact</a>
+				</div>
+				<div id="main"></div>
+			</div>
+		</section>
+		
+		<!-- <section class="map-outer"> -->
+			<!-- <div class="container-fluid"> -->
+				<!-- <div class=""> -->
+					<!-- <div class=""> -->
+						
+					<!-- </div> -->
+				<!-- </div> -->
+			<!-- </div> -->
+		<!-- </section> -->
+		
+		<section>
+			<div class="page-wrapper chiller-theme ">
+				<div class="left-bar toggled">
+					<a id="show-sidebar" class="btn btn-sm btn-dark" href="#">open</a>
+					<nav id="sidebar" class="sidebar-wrapper">
+					<div class="sidebar-content">
+						<div class="sidebar-brand">
+							<a href="#">pro sidebar</a>
+							<div id="close-sidebar">close</div>
+						</div>
+					</div>
+					</nav>
+				</div>
+				<main class="page-content toggledleft toggledright">
+					<div class="container-fluid p-0">
+						<div class="map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15282245.44596868!2d73.72133191485172!3d20.75010688625529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1629904953682!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						</div>
+					</div>
+				</main>
+				<div class="right-bar toggled">
+					<a id="show-sidebar1" class="btn btn-sm btn-dark" href="#">open</a>
+					<nav id="sidebar1" class="sidebar-wrapper">
+						<div class="sidebar-content">
+							<div class="sidebar-brand">
+								<div id="close-sidebar1">close</div>
+								<a href="#">pro sidebar</a>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</section>
+		
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/select-2.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('.js-example-basic-single').select2();
+			});
+		</script>
+		<script>
+			/* Set the width of the side navigation to 250px */
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "250px";
+			}
+
+			/* Set the width of the side navigation to 0 */
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+			}
+		</script>
+		<script>
+			$(".sidebar-dropdown > a").click(function() {
+			  $(".sidebar-submenu").slideUp(200);
+			  if (
+				$(this)
+				  .parent()
+				  .hasClass("active")
+			  ) {
+				$(".sidebar-dropdown").removeClass("active");
+				$(this)
+				  .parent()
+				  .removeClass("active");
+			  } else {
+				$(".sidebar-dropdown").removeClass("active");
+				$(this)
+				  .next(".sidebar-submenu")
+				  .slideDown(200);
+				$(this)
+				  .parent()
+				  .addClass("active");
+			  }
+			});
+
+			$("#close-sidebar").click(function() {
+			  $(".left-bar").removeClass("toggled");
+			});
+			$("#show-sidebar").click(function() {
+			  $(".left-bar").addClass("toggled");
+			});
+			
+			$("#close-sidebar").click(function() {
+			  $(".page-content").removeClass("toggledleft");
+			});
+			$("#show-sidebar").click(function() {
+			  $(".page-content").addClass("toggledleft");
+			});
+
+
+		</script>
+		<script>
+			$(".sidebar-dropdown > a").click(function() {
+			  $(".sidebar-submenu").slideUp(200);
+			  if (
+				$(this)
+				  .parent()
+				  .hasClass("active")
+			  ) {
+				$(".sidebar-dropdown").removeClass("active");
+				$(this)
+				  .parent()
+				  .removeClass("active");
+			  } else {
+				$(".sidebar-dropdown").removeClass("active");
+				$(this)
+				  .next(".sidebar-submenu")
+				  .slideDown(200);
+				$(this)
+				  .parent()
+				  .addClass("active");
+			  }
+			});
+
+			$("#close-sidebar1").click(function() {
+			  $(".right-bar").removeClass("toggled");
+			});
+			$("#show-sidebar1").click(function() {
+			  $(".right-bar").addClass("toggled");
+			});
+			
+			$("#close-sidebar1").click(function() {
+			  $(".page-content").removeClass("toggledright");
+			});
+			$("#show-sidebar1").click(function() {
+			  $(".page-content").addClass("toggledright");
+			});
+
+		</script>
+	</body>
+</html>
